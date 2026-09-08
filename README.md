@@ -42,3 +42,7 @@ public class homework {
         }
     }
 }
+
+
+<img width="950" height="696" alt="{648E0569-AC5A-4D70-9E7F-7E36AD53A4F0}" src="https://github.com/user-attachments/assets/42fdc699-9b78-4c21-91c4-619d5a7708cf" />
+
