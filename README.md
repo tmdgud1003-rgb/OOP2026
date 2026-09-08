@@ -1,4 +1,3 @@
-<img width="1639" height="678" alt="homework1" src="https://github.com/user-attachments/assets/e549504a-82b3-4f29-9787-bb877efd1920" />
 # OOP2026
 ### Homework
 ```java
