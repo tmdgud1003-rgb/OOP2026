@@ -43,4 +43,4 @@ public class homework {
     }
 }
 
-<img width="1639" height="678" alt="{3D3415D8-D69B-4CBD-AC7C-315B9DC91466}" src="https://github.com/user-attachments/assets/6398a8cb-6c5e-4811-bb1b-fc62edd8bc76" />
+<img width="1639" height="678" alt="{3D3415D8-D69B-4CBD-AC7C-315B9DC91466}" src="./images/{3D3415D8-D69B-4CBD-AC7C-315B9DC91466}.png" />
