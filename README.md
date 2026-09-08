@@ -43,4 +43,4 @@ public class homework {
     }
 }
 
-![Alt Homework](./images/{3D3415D8-D69B-4CBD-AC7C-315B9DC91466}.png")
+![Alt Homework](./images/homework1.png")
