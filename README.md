@@ -1,3 +1,4 @@
+<img width="1639" height="678" alt="homework1" src="https://github.com/user-attachments/assets/e549504a-82b3-4f29-9787-bb877efd1920" />
 # OOP2026
 ### Homework
 ```java
@@ -43,4 +44,5 @@ public class homework {
     }
 }
 ```
-![image](./image/homework1.png")
+<img width="1639" height="678" alt="homework1" src="https://github.com/user-attachments/assets/81060b77-e9c6-4551-a28b-7853bc2b82b6" />
+
