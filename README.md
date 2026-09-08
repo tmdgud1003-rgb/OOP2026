@@ -42,5 +42,5 @@ public class homework {
         }
     }
 }
-
+```
 ![Alt Homework](./images/homework1.png")
