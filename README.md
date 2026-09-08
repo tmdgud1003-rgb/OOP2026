@@ -43,4 +43,4 @@ public class homework {
     }
 }
 ```
-![image](./image/homework1.png")
+![image](.image/homework1.png")
