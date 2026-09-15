@@ -1,5 +1,5 @@
 # OOP2026
-### Homework
+### Homework1
 ```java
 package homework;
 
@@ -42,8 +42,9 @@ public class homework {
         }
     }
 }
-
+```
 ### Homework2
+```java
 package homework1;
 
 public class homework1 {
@@ -70,4 +71,5 @@ public class homework1 {
         }
     }
 }
-<img width="886" height="476" alt="image" src="https://github.com/user-attachments/assets/bd1c6bdd-6d63-42e0-9269-32f953ae86bd" />
+```
+<img width="886" height="476" alt="스크린샷 2026-09-15 142431" src="https://github.com/user-attachments/assets/5f6334c7-e1ef-4636-8fa0-87cc49a9ed2d" />
