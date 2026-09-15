@@ -44,21 +44,24 @@ public class homework {
 }
 
 ### Homework2
-int rows = 7; // 0행부터 6행까지 (총 7행)
+package homework1;
+
+public class homework1 {
+	public static void main(String []args){
+		int rows = 7;
         int[][] binomial = new int[rows][];
 
         for (int n = 0; n < rows; n++) {
             binomial[n] = new int[n + 1];
-            binomial[n][0] = 1;     // 맨 앞은 1
-            binomial[n][n] = 1;     // 맨 끝은 1
+            binomial[n][0] = 1;
+            binomial[n][n] = 1;
 
             for (int k = 1; k < n; k++) {
                 binomial[n][k] = binomial[n - 1][k - 1] + binomial[n - 1][k];
             }
         }
 
-        // 결과 출력
-        System.out.println("=== 파스칼의 삼각형 (이항계수) ===");
+        System.out.println(" 이항계수 ");
         for (int n = 0; n < rows; n++) {
             for (int k = 0; k <= n; k++) {
                 System.out.print(binomial[n][k] + " ");
@@ -67,3 +70,4 @@ int rows = 7; // 0행부터 6행까지 (총 7행)
         }
     }
 }
+<img width="886" height="476" alt="image" src="https://github.com/user-attachments/assets/bd1c6bdd-6d63-42e0-9269-32f953ae86bd" />
