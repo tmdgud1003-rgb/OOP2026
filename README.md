@@ -91,3 +91,28 @@ public class homework1 {
 }
 ```
 <img width="1720" height="815" alt="구구단출력" src="https://github.com/user-attachments/assets/4c2cec7b-a0ca-4c5a-8e53-6a4e3bead1d7" />
+
+### Homework4
+```java
+package homework1;
+
+public class homework1 {
+	public static void main(String[] args) {
+		int terms = 5_000_000;
+        double sum = 0.0;
+
+        for (int k = 0; k < terms; k++) {
+            double term = 1.0 / (2 * k + 1);
+            if (k % 2 == 0) {
+                sum += term;
+            } else {
+                sum -= term;
+            }
+        }
+
+        double pi = sum * 4.0;
+
+        System.out.printf("계산된 원주율: %.6f\n", pi);
+    }
+}
+```
