@@ -73,3 +73,19 @@ public class homework1 {
 }
 ```
 <img width="886" height="476" alt="스크린샷 2026-09-15 142431" src="https://github.com/user-attachments/assets/5f6334c7-e1ef-4636-8fa0-87cc49a9ed2d" />
+
+### Homework3
+```java
+package homework1;
+
+public class homework1 {
+	public static void main(String[] args) {
+		for (int j = 1; j <= 9; j++) {
+            for (int i = 1; i <= 9; i++) {
+                System.out.printf("%d*%d=%-2d  ", i, j, (i * j));
+            }
+            System.out.println();
+        }
+    }
+}
+```
