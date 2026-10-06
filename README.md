@@ -1,3 +1,4 @@
+
 # OOP2026
 ### Homework1
 ```java
@@ -89,3 +90,4 @@ public class homework1 {
     }
 }
 ```
+<img width="1720" height="815" alt="구구단출력" src="https://github.com/user-attachments/assets/4c2cec7b-a0ca-4c5a-8e53-6a4e3bead1d7" />
