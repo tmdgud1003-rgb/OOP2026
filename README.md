@@ -338,4 +338,57 @@ public class homework {
 
 <img width="1550" height="827" alt="산술평균(arithmetic), 기하평균(geometric), 조화평균(harmonic), 중앙값(median) 계산하기" src="https://github.com/user-attachments/assets/599817b2-1981-4878-aa6f-b74739c4b8c0" />
 
+### Homework13
+```java
+import java.util.Scanner;
+
+public class homework {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            System.out.print("수식 입력 >> ");
+            String input = scanner.nextLine().trim();
+
+            if (input.equals("q")) {
+                System.out.println("종료합니다.");
+                break;
+            }
+            String[] arr = input.split(" ");
+            if (arr.length == 3) {
+                int a = Integer.parseInt(arr[0]);
+                String op = arr[1];
+                int b = Integer.parseInt(arr[2]);
+
+                int result = calc(a, op, b);
+                System.out.println("결과: " + result);
+            }
+            else if (arr.length == 5) {
+                int a = Integer.parseInt(arr[0]);
+                String op1 = arr[1];
+                int b = Integer.parseInt(arr[2]);
+                String op2 = arr[3];
+                int c = Integer.parseInt(arr[4]);
+                int firstResult = calc(a, op1, b);
+                int result = calc(firstResult, op2, c);
+
+                System.out.println("결과: " + result);
+            } else {
+                System.out.println("형식이 맞지 않습니다. 띄어쓰기를 확인하세요.");
+            }
+        }
+        scanner.close();
+    }
+    static int calc(int n1, String op, int n2) {
+        if (op.equals("+")) return n1 + n2;
+        if (op.equals("-")) return n1 - n2;
+        if (op.equals("#")) return n1 * n2;
+        if (op.equals("/")) return n1 / n2;
+        return 0;
+    }
+}
+```
+
+<img width="1533" height="794" alt="계산기" src="https://github.com/user-attachments/assets/a403f414-51ac-4113-99a6-f6b14a782850" />
+
 
