@@ -78,9 +78,10 @@ public class homework {
 		    System.out.println(sum * Math.sqrt(12)); 
 		}
 	}
+```
 <img width="907" height="250" alt="원주율계산" src="https://github.com/user-attachments/assets/932560e3-849f-4c68-94fe-7668b51f5459" />
 
-```
+
 ### Homework6
 ```java
 package homework1;
