@@ -45,7 +45,9 @@ public class homework {
 }
 ```
 <img width="1273" height="807" alt="계단형식별모양출력" src="https://github.com/user-attachments/assets/23fcd546-1bea-4b22-9cdb-839d3b9f0cef" />
+
 ### Homework2
+
 ```java
 
 	public class homework {
@@ -70,7 +72,9 @@ public class homework {
 	}
 ```
 <img width="1296" height="388" alt="피보나치수열" src="https://github.com/user-attachments/assets/7b8ab64e-2a55-456a-b705-6c4a08538fcc" />
+
 ### Homework3
+
 ```java
 
 	public class homework {
