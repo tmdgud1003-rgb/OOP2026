@@ -44,7 +44,48 @@ public class homework {
     }
 }
 ```
-### Homework2
+### Homework4
+```java
+package homework1;
+
+public class homework1 {
+	public static void main(String[] args) {
+		for (int j = 1; j <= 9; j++) {
+            for (int i = 1; i <= 9; i++) {
+                System.out.printf("%d*%d=%-2d  ", i, j, (i * j));
+            }
+            System.out.println();
+        }
+    }
+}
+```
+<img width="1720" height="815" alt="구구단출력" src="https://github.com/user-attachments/assets/4c2cec7b-a0ca-4c5a-8e53-6a4e3bead1d7" />
+
+### Homework5
+```java
+package homework1;
+
+public class homework1 {
+	public static void main(String[] args) {
+		int terms = 5_000_000;
+        double sum = 0.0;
+
+        for (int k = 0; k < terms; k++) {
+            double term = 1.0 / (2 * k + 1);
+            if (k % 2 == 0) {
+                sum += term;
+            } else {
+                sum -= term;
+            }
+        }
+
+        double pi = sum * 4.0;
+
+        System.out.printf("계산된 원주율: %.6f\n", pi);
+    }
+}
+```
+### Homework6
 ```java
 package homework1;
 
@@ -75,44 +116,43 @@ public class homework1 {
 ```
 <img width="886" height="476" alt="스크린샷 2026-09-15 142431" src="https://github.com/user-attachments/assets/5f6334c7-e1ef-4636-8fa0-87cc49a9ed2d" />
 
-### Homework3
+### Homework8
 ```java
-package homework1;
 
-public class homework1 {
-	public static void main(String[] args) {
-		for (int j = 1; j <= 9; j++) {
-            for (int i = 1; i <= 9; i++) {
-                System.out.printf("%d*%d=%-2d  ", i, j, (i * j));
-            }
-            System.out.println();
-        }
-    }
-}
-```
-<img width="1720" height="815" alt="구구단출력" src="https://github.com/user-attachments/assets/4c2cec7b-a0ca-4c5a-8e53-6a4e3bead1d7" />
+	public class homework {
+		    public static void main(String[] args) {
+		        int students = 30; 
+		        int subjects = 4;  
 
-### Homework4
-```java
-package homework1;
+		        int[][] score = new int[students][subjects];
 
-public class homework1 {
-	public static void main(String[] args) {
-		int terms = 5_000_000;
-        double sum = 0.0;
+		        for (int i = 0; i < students; i++) {
+		            for (int j = 0; j < subjects; j++) {
+		                score[i][j] = (int) (Math.random() * 101);
+		            }
+		        }
 
-        for (int k = 0; k < terms; k++) {
-            double term = 1.0 / (2 * k + 1);
-            if (k % 2 == 0) {
-                sum += term;
-            } else {
-                sum -= term;
-            }
-        }
+		        System.out.println("=====================================================");
+		        System.out.printf("%-4s\t%-4s\t%-4s\t%-4s\t%-4s\t%-5s\t%-5s%n", 
+		                          "번호", "국어", "영어", "수학", "과학", "총점", "평균");
+		        System.out.println("=====================================================");
 
-        double pi = sum * 4.0;
+		        for (int i = 0; i < students; i++) {
+		            int sum = 0;
 
-        System.out.printf("계산된 원주율: %.6f\n", pi);
-    }
-}
+		            System.out.printf("%2d번\t", (i + 1));
+
+		            for (int j = 0; j < subjects; j++) {
+		                System.out.printf("%3d\t", score[i][j]);
+		                sum += score[i][j];
+		            }
+
+		            double avg = (double) sum / subjects;
+
+		            System.out.printf("%4d\t%5.1f%n", sum, avg);
+		        }
+		        System.out.println("=====================================================");
+		    }
+		}
+
 ```
