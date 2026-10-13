@@ -65,27 +65,21 @@ public class homework1 {
 
 ### Homework5
 ```java
-package homework1;
+public class homework {
+		public static void main(String[] args) {
+		    int i, n = 100, sign = 1;
+		    double sum = 0;
+		    
+		    for (i = 0; i < n; i++) {
+		        sum += sign * 1.0 / ((2.0 * i + 1.0) * Math.pow(3.0, i));
+		        sign *= -1;
+		    }
+		    
+		    System.out.println(sum * Math.sqrt(12)); 
+		}
+	}
+<img width="907" height="250" alt="원주율계산" src="https://github.com/user-attachments/assets/932560e3-849f-4c68-94fe-7668b51f5459" />
 
-public class homework1 {
-	public static void main(String[] args) {
-		int terms = 5_000_000;
-        double sum = 0.0;
-
-        for (int k = 0; k < terms; k++) {
-            double term = 1.0 / (2 * k + 1);
-            if (k % 2 == 0) {
-                sum += term;
-            } else {
-                sum -= term;
-            }
-        }
-
-        double pi = sum * 4.0;
-
-        System.out.printf("계산된 원주율: %.6f\n", pi);
-    }
-}
 ```
 ### Homework6
 ```java
