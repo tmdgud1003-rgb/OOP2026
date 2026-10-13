@@ -45,6 +45,51 @@ public class homework {
 }
 ```
 <img width="1273" height="807" alt="계단형식별모양출력" src="https://github.com/user-attachments/assets/23fcd546-1bea-4b22-9cdb-839d3b9f0cef" />
+### Homework2
+```java
+
+	public class homework {
+		public static void main(String[] args) 
+		{
+		    int n = 20; 
+
+		     int prev = 0, curr = 1;
+
+		    System.out.print(prev + " ");
+		    System.out.print(curr + " ");
+
+		    for (int i = 2; i < n; i++) {
+		        int next = prev + curr;
+		        System.out.print(next + " ");
+		        prev = curr;
+		        curr = next;
+		    }
+
+		    // TODO Auto-generated method stub
+		} 
+	}
+```
+<img width="1296" height="388" alt="피보나치수열" src="https://github.com/user-attachments/assets/7b8ab64e-2a55-456a-b705-6c4a08538fcc" />
+### Homework3
+```java
+
+	public class homework {
+		public static void main(String[] args)
+		{
+		    float val1 = 1;
+		    float val2 = 2;
+
+		    for (int i = 0; i < 20; i++) {
+		        float value = val2 / val1;
+		        System.out.println(val2 + "/" + val1 + " = " + value);
+		        float temp = val1;
+		        val1 = val2;
+		        val2 = temp + val2;
+		    }
+		}
+	}
+```
+<img width="1255" height="446" alt="황금비율계산출력" src="https://github.com/user-attachments/assets/8376156d-d3bc-40b1-bdc8-fd7e960b55e3" />
 
 ### Homework4
 ```java
