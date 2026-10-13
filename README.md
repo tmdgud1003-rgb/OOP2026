@@ -44,6 +44,8 @@ public class homework {
     }
 }
 ```
+<img width="1273" height="807" alt="계단형식별모양출력" src="https://github.com/user-attachments/assets/23fcd546-1bea-4b22-9cdb-839d3b9f0cef" />
+
 ### Homework4
 ```java
 package homework1;
@@ -156,3 +158,6 @@ public class homework1 {
 		}
 
 ```
+<img width="1536" height="649" alt="과국영수과학성적출력" src="https://github.com/user-attachments/assets/53f5b2fb-155f-4bfb-b23b-1ddace10f2ac" />
+
+
