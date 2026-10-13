@@ -162,6 +162,42 @@ public class homework1 {
 ```
 <img width="886" height="476" alt="스크린샷 2026-09-15 142431" src="https://github.com/user-attachments/assets/5f6334c7-e1ef-4636-8fa0-87cc49a9ed2d" />
 
+### Homework7
+```java
+
+	public class homework {
+		    public static void main(String[] args) {
+		        int data[] = new int[20];
+		        for (int i = 0; i < 20; i++)
+		            data[i] = (int)(Math.random() * 100);
+
+		        System.out.println("정렬 전");
+		        for (int i = 0; i < 20; i++)
+		            System.out.print(data[i] + " ");
+		        System.out.println();
+
+		        // 선택 정렬 (Selection Sort)
+		        for (int i = 0; i < 19; i++) {
+		            int min = i;
+		            for (int j = i + 1; j < 20; j++) {
+		                if (data[j] < data[min])
+		                    min = j;
+		            }
+		            int temp = data[i];
+		            data[i] = data[min];
+		            data[min] = temp;
+		        }
+
+		        System.out.println("정렬 후");
+		        for (int i = 0; i < 20; i++)
+		            System.out.print(data[i] + " ");
+		        System.out.println();
+		    }
+		}
+```
+<img width="1300" height="487" alt="소팅알고리즘출력" src="https://github.com/user-attachments/assets/6c19fd13-bdae-4fbd-b058-3b2773b5736d" />
+
+
 ### Homework8
 ```java
 
