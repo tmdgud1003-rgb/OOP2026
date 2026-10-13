@@ -238,6 +238,48 @@ public class homework1 {
 		}
 
 ```
+
 <img width="1536" height="649" alt="과국영수과학성적출력" src="https://github.com/user-attachments/assets/53f5b2fb-155f-4bfb-b23b-1ddace10f2ac" />
+
+
+### Homework10
+```java
+
+	public class homework {
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			int array_count, max_value, bin_size, display_scale, hist_size;
+			if(args.length !=4)
+				return;
+			array_count = Integer.parseInt(args[0]);
+			max_value = Integer.parseInt(args[1]);
+			bin_size = Integer.parseInt(args[2]);
+			display_scale = Integer.parseInt(args[3]);
+			hist_size = max_value/bin_size;
+			
+			int[] arr = new int[array_count];
+			int[] hist = new int[hist_size];
+			for (int i=0; i<array_count; i++) {
+				arr[i] = (int) (Math.random()*max_value);
+			}
+			for (int i=0; i<array_count; i++) {
+				System.out.print(arr[i] + " ");  
+			}
+			System.out.println();  
+			
+			for (int i=0; i<array_count; i++) {
+				hist[arr[i]/bin_size]++;
+			}
+			for (int i=0; i<hist_size; i++) {
+				System.out.print(hist[i] + " ");  
+			}
+			System.out.println();  
+		}
+	}
+```
+
+<img width="1550" height="671" alt="도수분포표만들기" src="https://github.com/user-attachments/assets/e560e5be-f00b-4071-bbc3-7d60c17c4dbe" />
+
+
 
 
